@@ -91,7 +91,9 @@
 						<li class="mobile_slid_li">
 							<div class="link_wrap">
 								<a>Terms of Refund</a>
-								<div class="iconfont slid_icon">&#xe869;</div>
+								<div class="slid_icon">
+									<div class="iconfont">&#xe869;</div>
+								</div>
 							</div>
 							<ul class="sub_ul">
 								<li class="sub_li">
@@ -245,7 +247,6 @@
 				}
 			})
 			banner_item_list[currentIndex % banner_item_list.length].className = banner_item_list[currentIndex % banner_item_list.length].className + " active"
-		   console.log(banner_item_list[currentIndex % banner_item_list.length].className)
 		}
 		document.querySelector(".banner_wrap .right_btn").onclick = function() {
 			currentIndex++;
@@ -295,7 +296,7 @@
 		let mobile_slid_li = document.querySelectorAll(".mobile_slid_li");
 		for (let i = 0; i < mobile_slid_li.length; i++) {
 			mobile_slid_li[i].onclick = function() {
-				if (mobile_slid_li[i].className === "mobile_slid_li expend") {
+				if (mobile_slid_li[i].className == "mobile_slid_li expend") {
 					mobile_slid_li[i].className = "mobile_slid_li"
 				} else {
 					mobile_slid_li.forEach((dom) => {
