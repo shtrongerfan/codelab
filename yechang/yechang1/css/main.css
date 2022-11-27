@@ -96,6 +96,18 @@ section::after {
     position: relative;
 }
 
+@supports (-webkit-touch-callout : none) {
+    #header {
+        background-attachment: scroll
+    }
+}
+
+@supports not (-webkit-touch-callout : none) {
+    #header {
+        background-attachment: fixed;
+    }
+}
+
 .bg-overlay {
     position: absolute;
     top: 0;
@@ -288,6 +300,20 @@ section::after {
     position: relative;
     color: #FFF;
 }
+
+@supports (-webkit-touch-callout : none) {
+    .parallax {
+        background-attachment: scroll
+    }
+}
+
+@supports not (-webkit-touch-callout : none) {
+    .parallax {
+        background-attachment: fixed;
+    }
+}
+
+
 
 .parallax .inner {
     padding-top: 80px;
