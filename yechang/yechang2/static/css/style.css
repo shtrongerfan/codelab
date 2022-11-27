@@ -1163,7 +1163,7 @@ h6+p {
 p,
 .marked-list,
 .list {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.812);
   font-size: 24px;
   line-height: 36px;
   font-weight: 100;
@@ -1240,7 +1240,11 @@ ol {
   counter-reset: list;
 }
 
-ol li:before {
+ol li {
+  margin-top: 40px;
+}
+
+/* ol li:before {
   content: counter(list, decimal-leading-zero) "_";
   counter-increment: list;
   color: #fff;
@@ -1248,11 +1252,11 @@ ol li:before {
   font-weight: 600;
   font-size: 28px;
 
-}
+} */
 
 ol li a {
   font-size: 28px;
-  color: #ff50e791;
+  color: #ffffffef;
 }
 
 ol li a:hover {
