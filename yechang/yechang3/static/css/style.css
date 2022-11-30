@@ -1163,9 +1163,9 @@ h6+p {
 p,
 .marked-list,
 .list {
-  color: rgba(255, 255, 255, 0.812);
-  font-size: 24px;
-  line-height: 36px;
+  color: #875329;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 100;
 }
 
@@ -1822,6 +1822,7 @@ header .nav {
                      CONTENT  Section
 =========================================================*/
 main {
+  background-image: url(../image/hjbg.jpg);
   display: block;
 }
 
@@ -2112,12 +2113,23 @@ dt {
 }
 
 .well_ins1 {
-  background: #2a3242;
-  padding: 69px 0;
+  padding: 10px 0;
+}
+
+.well_ins1 .col-sm-6 {
+  min-height: 150px;
+  padding: 20px;
+}
+
+.well_ins1 .col-sm-6 .inner {
+  background: #f5ddb5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 18px #fbfcee8b;
+  padding: 10px;
+
 }
 
 .well_ins2 {
-  background: url("../image/bg1.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -2130,7 +2142,6 @@ dt {
 }
 
 .well_ins3 {
-  background: url("../image/bg2.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -2148,7 +2159,6 @@ dt {
 }
 
 .well_ins5 {
-  background: url("../image/bg3.jpg") center no-repeat;
   padding: 83px 15px;
   background-size: cover;
 }
@@ -2377,7 +2387,7 @@ footer .footer_list li+li {
   }
 
   .well_ins1 {
-    padding: 139px 0 0 0;
+    padding: 10px 0 0 0;
   }
 
   .policy {
@@ -2422,7 +2432,7 @@ footer .footer_list li+li {
   }
 
   .well_ins1 {
-    padding: 50px 0 50px;
+    padding: 10px 0 50px;
   }
 
   h2 {
@@ -2523,7 +2533,7 @@ footer .footer_list li+li {
   }
 
   .well_ins1 {
-    padding: 50px 15px;
+    padding: 10px 15px;
   }
 
   .iw-content>p {
