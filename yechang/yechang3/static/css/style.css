@@ -1077,19 +1077,19 @@ h6 {
 }
 
 h2 {
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 38px;
+  line-height: 38px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h2:after {
   height: 8px;
-  width: 170px;
-  background: #4474A5;
+  width: 155px;
+  background-image: linear-gradient( 45deg,#deae7f, #fce5ca, #d8ab7e);
   content: '';
   display: block;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 h3 {
@@ -1164,9 +1164,9 @@ p,
 .marked-list,
 .list {
   color: #875329;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 100;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
 }
 
 p a:hover,
@@ -2122,11 +2122,24 @@ dt {
 }
 
 .well_ins1 .col-sm-6 .inner {
-  background: #f5ddb5;
+  background-image: linear-gradient( 45deg,#deae7f, #fce5ca, #d8ab7e);
   border-radius: 20px;
   -webkit-box-shadow: 0 0 18px #fbfcee8b;
-  padding: 10px;
+  padding:  15px 15px 40px 15px;
 
+}
+.well_ins1 .col-sm-6 .inner h1{
+  width: 160px;
+  background-color: #7a5842;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .well_ins2 {
